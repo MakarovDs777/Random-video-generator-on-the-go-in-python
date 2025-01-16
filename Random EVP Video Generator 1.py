@@ -64,6 +64,7 @@ def select_video():
 # Создание графического интерфейса
 root = tk.Tk()
 root.title("Random EVP Video Generator")
+root.geometry("320x120")  # Установка размера окна
 
 canvas = tk.Canvas(root, width=640, height=480)
 canvas.pack()
